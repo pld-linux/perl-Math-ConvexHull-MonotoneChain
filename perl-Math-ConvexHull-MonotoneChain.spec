@@ -51,7 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorarch}/Math/ConvexHull
 %{perl_vendorarch}/Math/ConvexHull/MonotoneChain.pm
+%dir %{perl_vendorarch}/auto/Math/ConvexHull
 %dir %{perl_vendorarch}/auto/Math/ConvexHull/MonotoneChain
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/ConvexHull/MonotoneChain/MonotoneChain.so
 %{_mandir}/man3/*
