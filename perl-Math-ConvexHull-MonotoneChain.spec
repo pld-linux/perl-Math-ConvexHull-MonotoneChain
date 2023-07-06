@@ -7,7 +7,7 @@
 Summary:	Math::ConvexHull::MonotoneChain - Andrew's monotone chain algorithm for finding a convex hull in 2D
 Name:		perl-Math-ConvexHull-MonotoneChain
 Version:	0.01
-Release:	10
+Release:	11
 License:	Perl
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
